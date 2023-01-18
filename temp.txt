@@ -1,0 +1,86 @@
+﻿
+
+
+/// Manager Operations ///
+
+1. Create New User
+2. See Leaves requests from users
+3. Approve or deny a leave
+4. Delete a User
+
+
+/// User Operations ///
+
+1. Request for a leave
+2. See past leaves of him/her
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {
+        "id": 8,
+        "empId": 15421564,
+        "empName": "temp",
+        "date": "2011-12-12T00:00:00",
+        "reason": "tour",
+        "status": "pending"
+    }
+
+
+
+    {
+    
+        "username":"",
+        "password":""
+        
+    }
+
+
+     public int Id { get; set; }
+        public string Name { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
+
+
+    {
+        "id":0,
+        "name":"",
+        "username":"",
+        "password":"",
+        "role":""
+        
+    }
